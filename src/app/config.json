@@ -1,0 +1,35 @@
+{
+    "default": {
+        "author": "zuozhuod",
+        "firstScene": "scene1",
+        "sceneFadeDuration": 2000
+    },
+    "scenes": {
+        "scene1": {
+            "title": "one",
+            "panorama": "./equirec1.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "scene2",
+                    "sceneId": "scene2"
+                } 
+            ]
+        },
+        "scene2": {
+            "title": "two",
+            "panorama": "./equirec2.png",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "scene1",
+                    "sceneId": "scene1"
+                } 
+            ]
+        }
+    }
+}
